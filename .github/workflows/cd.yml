@@ -1,7 +1,7 @@
 name: Deploy to Amazon EC2
 on:
   push:
-    branches: [ "master" ] # main 브랜치 merge 트리거 되었을 경우
+    branches: [ "master" ] # main 브랜치 merge 트리거 되었을 경우1
 
 env:
   REGISTRY: ghcr.io # 깃허브 컨테이너 저장소를 사용한다.
